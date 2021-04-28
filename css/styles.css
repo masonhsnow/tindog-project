@@ -1,0 +1,161 @@
+/******************************TAG SELECTORS***********************************/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: gray;
+}
+
+/******************************CLASS SELECTORS***********************************/
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15% 5% 15%;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 4%;
+}
+
+.feature-points {
+  text-align: center;
+  padding: 0 5% 10% 5%;
+}
+
+.footer-icons {
+  padding: 2% 1%;
+  color: black;
+}
+
+.iphone-mockup-img {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 20%;
+}
+
+.main-buttons {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.navbar {
+  padding-bottom: 10%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-row {
+  padding-top: 3%;
+}
+
+.section-icons {
+  color: #ef8172;
+  margin-bottom: 7%;
+}
+
+.section-icons:hover {
+  color: #FF4C68;
+  cursor: pointer;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/******************************ID SELECTORS***********************************/
+#cta {
+  background-color: #FF4C68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#features {
+  padding: 7% 15% 0 15%;
+  position: relative;
+  background-color: white;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 5% 0;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+#pricing {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 5%;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+
+/******************************MEDIA QUERIES**********************************/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup-img {
+    visibility: hidden;
+    /* transform: rotate(0deg);
+  width: 50%;
+  position: static; */
+  }
+}
